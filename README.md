@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Shell Scripts](https://img.shields.io/badge/Scripts-10%20Bash-green.svg)](#-required-scripts-assignment)
-[![Platform](https://img.shields.io/badge/Platform-Ubuntu%2FDebian-orange.svg)](#-prerequisites)
+[![Platform](https://img.shields.io/badge/Platform-Ubuntu%2FDebian-orange.svg)](#-dependencies)
 
 ---
 
@@ -56,7 +56,7 @@ This project is an academic audit of the **Apache HTTP Server**, one of the most
 ## 📁 Project Structure
 
 ```
-linuxopensource/
+Open-Source-Software/
 ├── scripts/
 │   ├── required/                         # 5 assignment-required scripts
 │   │   ├── 01_system_identity.sh         # Variables, uname, echo
@@ -100,8 +100,8 @@ linuxopensource/
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/linuxopensource.git
-cd linuxopensource
+git clone https://github.com/goyalk01/Open-Source-Software.git
+cd Open-Source-Software
 ```
 
 ### Step 2: Install Apache
@@ -145,7 +145,7 @@ These 5 scripts fulfil the assignment requirements. Each demonstrates specific b
 
 ```bash
 # Navigate to project directory
-cd linuxopensource
+cd Open-Source-Software
 
 # Script 1: System Identity (no arguments needed)
 bash scripts/required/01_system_identity.sh
@@ -252,5 +252,5 @@ This project is licensed under the **MIT License** — see [LICENSE](LICENSE).
 
 ## 👤 Author
 
-**[Your Name]**
+**Krish Goyal**
 University Capstone Project — Open Source Software Audit
