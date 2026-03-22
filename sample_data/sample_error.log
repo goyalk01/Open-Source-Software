@@ -1,0 +1,15 @@
+[Sun Mar 20 10:15:00.123456 2026] [core:notice] [pid 1234] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Mar 20 10:15:00.234567 2026] [mpm_prefork:notice] [pid 1234] AH00163: Apache/2.4.52 (Ubuntu) configured -- resuming normal operations
+[Sun Mar 20 10:16:30.345678 2026] [core:error] [pid 1456] [client 10.0.0.51:54321] AH00128: File does not exist: /var/www/html/nonexistent
+[Sun Mar 20 10:16:31.456789 2026] [core:error] [pid 1456] [client 10.0.0.51:54322] AH00128: File does not exist: /var/www/html/favicon.ico
+[Sun Mar 20 10:17:15.567890 2026] [authz_core:error] [pid 1457] [client 192.168.1.100:45678] AH01630: client denied by server configuration: /var/www/html/admin/
+[Sun Mar 20 10:17:31.678901 2026] [authz_core:error] [pid 1458] [client 172.16.0.20:56789] AH01630: client denied by server configuration: /api/users/5
+[Sun Mar 20 10:19:00.789012 2026] [core:error] [pid 1459] [client 203.0.113.50:12345] AH00126: Invalid URI in request GET /../../etc/passwd HTTP/1.1
+[Sun Mar 20 10:19:01.890123 2026] [core:error] [pid 1459] [client 203.0.113.50:12346] AH00128: File does not exist: /var/www/html/phpmyadmin
+[Sun Mar 20 10:19:02.901234 2026] [core:error] [pid 1459] [client 203.0.113.50:12347] AH00128: File does not exist: /var/www/html/wp-admin
+[Sun Mar 20 10:19:03.012345 2026] [core:error] [pid 1459] [client 203.0.113.50:12348] AH00128: File does not exist: /var/www/html/admin/config.php
+[Sun Mar 20 13:00:00.123456 2026] [php:error] [pid 1460] [client 10.0.0.53:23456] PHP Fatal error: Uncaught Exception in /var/www/html/index.php:45
+[Sun Mar 20 13:00:01.234567 2026] [php:error] [pid 1461] [client 10.0.0.53:23457] PHP Fatal error: Uncaught Exception in /var/www/html/index.php:45
+[Sun Mar 20 15:30:01.345678 2026] [core:info] [pid 1462] [client 192.168.1.106:34567] AH00128: File not modified: /var/www/html/images/banner.jpg
+[Sun Mar 20 22:00:00.456789 2026] [authz_core:error] [pid 1463] [client 203.0.113.51:45678] AH01630: client denied by server configuration: /var/www/html/cgi-bin/test
+[Sun Mar 20 23:59:59.567890 2026] [mpm_prefork:notice] [pid 1234] AH00170: caught SIGWINCH, shutting down gracefully
